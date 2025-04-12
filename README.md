@@ -24,21 +24,17 @@ CONFIGURACIÓN DEL FICHERO .ENV
 EL fichero .env debera contener las siguientes variables:
 
 **BACKEND**
-<pre><code>```
 GOOGLE_CLIENT_ID=""
 GOOGLE_CLIENT_SECRET=""
 MONGODB_URI="Dirección de MongoDB"
 MAIL_ADMIN="Correo del administrador"
-```</code></pre>
 
 **FRONTEND**
-<pre><code>```
 MONGODB_URI="Dirección de MongoDB asociado al backend"
 STRIPE_PK="Clave publica de Stripe"
 STRIPE_SK="Clave privada de Stripe"
 PUBLIC_URL="Direccion del fronted"
 NEXT_PUBLIC_BACK_URL="Direccion del backend"
-```</code></pre>
 
 OBTENCIÓN DE LAS CLAVES DE STRIPE Y FUNCIONAMIENTO DEL FRONTEND
 ---------------------------------------------------
